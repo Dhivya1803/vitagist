@@ -1,0 +1,5 @@
+<mat-card class="calendar">
+  <div class="calh"><mat-card-header style="align-items:center;" class="ch1">{{ currentMonthYear }}</mat-card-header></div>
+  <div><mat-calendar class="fixed-calendar" style="padding: 15px 8px 0 8px;" [startAt]="startAt" [selected]="selectedDate" (selectedChange)="onDateSelected($event)"></mat-calendar></div>
+  </mat-card>
+  

@@ -1,0 +1,99 @@
+.header-toolbar {
+    position: fixed;
+    top: 0;
+    left: 250px; /* Adjust this value based on your sidebar width */
+    width: calc(100% - 250px);
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Primary color */
+    color: #004d87; /* Text color */
+    /* box-shadow: 0 2px 0px 0 rgba(209, 209, 209, 0.26); */
+    z-index: 1000; /* Ensure the header is above other content */
+    padding-right: 5px; /* Gap from right side of the header */
+  }
+  
+  .header-title {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 20px;
+    color: #0d5b9f;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 1.05px;
+    z-index: 90;
+  }
+  
+  .country {
+    display: flex;
+    align-items: center;
+  }
+  
+  .country-flag {
+    width: 30px; /* Adjust as needed */
+    border-radius: 50%;
+    height:30px; /* Keeps aspect ratio */
+    margin-right: 5px; /* Space between flag and country code */
+  }
+  
+  .country-code {
+    font-size: 18px;
+    color:#575859;
+  }
+  
+  #notify {
+    color:#575859; /* Text color */
+    font-size: 25px;
+  }
+  
+  .spacer {
+    flex: 0.82;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between name/email and profile image */
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 40px; /* Match the height of the ellipse */
+    text-align: right;
+    color:#575859;
+  }
+  
+  .profile-name {
+    font-size: 14px;
+    font-weight:600;
+    line-height: 1.4; /* Adjust line height for better vertical centering */
+  }
+  
+  .profile-email {
+    font-size: 10px;
+    margin-top: 0;
+    font-weight: 400; /* Remove space between name and email */
+    line-height: 1.4; /* Adjust line height for better vertical centering */
+  }
+  
+  .ellipse {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-image: url("https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.webp?b=1&s=170667a&w=0&k=20&c=FycdXoKn5StpYCKJ7PdkyJo9G5wfNgmSLBWk3dI35Zw=");
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    margin-left: 5px; /* Gap from the left side of the profile-info */
+    border:2px solid white;
+    box-shadow: 4px 3px 5px 6px rgba(209, 209, 209, 0.26);
+  }
+  

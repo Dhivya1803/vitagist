@@ -1,0 +1,146 @@
+.sidenav-container {
+    height: 100%;
+    align-items: center; /* Center align items */
+    background-color: #f0f0f0; /* Light background for modern look */
+   
+}
+
+.fixed-content {
+    width: 250px;
+    height: 100%; 
+    padding: 24px;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    background: rgb(255, 255, 255);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  */
+    overflow: hidden; 
+
+}
+
+.logo-container {
+    height: 65px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+
+.logo-background {
+    margin-bottom: 45px;
+    width: 218px;
+    height: 65px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(157, 196, 212, 0.25);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.logo {
+    width: 80%;
+    height: 80%;
+    /* height: inherit; */
+
+}
+
+.sidenav nav {
+    width: 100%; 
+   
+    
+}
+
+.sidenav mat-nav-list {
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+   
+}
+
+.sidenav mat-list-item {
+    padding: 0;
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+  
+}
+
+.nav-item {
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    border-radius: 15px;
+    justify-content: space-between; 
+    transition: background-color 0.3s, box-shadow 0.3s,   border-radius 15px; 
+    width: 100%; 
+   
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+    align-items: center; 
+    border-radius: 15px;
+    justify-content: space-between; 
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav-text {
+    display: flex;
+    font-size: 18px;
+    justify-content:flex-start; /* Align text to the start */
+    align-items: center;
+    margin-left: 20px;
+    flex: 1; /* Take up remaining space */
+}
+
+
+.nav-item:hover {
+    background-color: #9eceff; 
+    border-radius: 15px;
+    box-shadow: 0px 2px 2px blur(0.5px) #9eceff; 
+}
+.mat-mdc-nav-list .mat-mdc-list-item{
+   margin-bottom:10px;
+}
+.act:focus{
+    background-color: #DCEEFF; 
+    border-radius: 15px;
+    .nav-text{
+        color:#0372c7;
+    }
+    .nav-icon {
+        color:#0372c7;
+    }
+
+ 
+
+}
+
+
+
+hr.hh {
+    width: 100%; 
+    height: 1px; 
+    background-color: rgb(231, 231, 231);
+    border: none;
+    margin: 10px 0; 
+}
+.logout{
+    position: absolute;
+    bottom: 5px;   
+    display: flex;
+    justify-content: space-between; 
+    transition: background-color 0.3s, box-shadow 0.3s; 
+    width: 80%; 
+    align-items: center;
+    
+}

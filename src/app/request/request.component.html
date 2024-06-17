@@ -1,0 +1,51 @@
+<div class="connection"><div class="section-heading">
+    <h1>Connections</h1>
+    <div class="toggle-buttons">
+      <mat-button-toggle-group #group="matButtonToggleGroup" class="tbuttons" (change)="onToggleChange(group)">
+        <mat-button-toggle value="active" class="toggle-buttona togMed" [class.active]="isActive">
+          <span class="toggle-text">Friends & Family</span>
+          <span class="toggle-count circle" *ngIf="isActive">6</span>
+        </mat-button-toggle>
+        <mat-button-toggle value="inactive" class="toggle-buttonb" [class.inactive]="!isActive">
+          <span class="toggle-text">Legal & Finance</span>
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+</div>
+ 
+<div class="container">
+  <div class="header-container">
+    <div class="header-text">New Request</div>
+    <div class="notification-icon">
+      <div class="notification-background"></div>
+      <div class="notification-count">8</div>
+    </div>
+    <div class="view-all">View All</div>
+  </div>
+   <div class="request-card">
+      <div class="card-content">
+        <div class="profile-section">
+          <div class="profile-details">
+            <div class="profile-info">
+              <div class="profile-picture">
+                <img src="assets/img/Ellipse 86.png" alt="Profile Picture" />
+              </div>
+              <div class="profile-text">
+                <div class="profile-name">Maddy John</div>
+                <div class="profile-time">5 mins ago</div>
+              </div>
+            </div>
+            <div class="action-button">
+              <div class="accept-text">Accept</div>
+              <div class="accept-icon"></div>
+            </div>
+          </div>
+          <div class="spacer"></div>
+        </div>
+        <!-- <div class="decorative-icon">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+        </div> -->
+      </div>
+    </div>
+  </div>

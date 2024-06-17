@@ -1,0 +1,70 @@
+*{
+  --mat-datepicker-calendar-date-selected-state-background-color: #FF9029;
+}
+.calendar {
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    width: 320px;
+    height: 330px;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow-y: hidden;
+}
+  .calh{
+    margin:0;
+  }
+  
+  .ch1{
+    display: flex;
+    justify-content: center;
+    color: #FF9029;
+    font-weight: 649;
+    font-size: 1.2em;
+    text-align: center;
+    font-family:"gill sans";
+    }
+ 
+  .mat-calendar-content {
+    max-height: 300px; /* Adjust as needed */
+    overflow-y: auto;
+  }
+  
+
+  ::ng-deep .fixed-calendar .mat-calendar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  ::ng-deep .fixed-calendar .mat-calendar-header .mat-calendar-controls {
+    display: none;
+  }
+  
+  ::ng-deep .fixed-calendar .mat-calendar-header .mat-calendar-arrow {
+    display: none;
+  }
+  
+  ::ng-deep .fixed-calendar .mat-calendar-header .mat-calendar-period-button {
+    flex: 1;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  ::ng-deep .fixed-calendar .mat-calendar-header .mat-calendar-period-button .mat-button-wrapper {
+    display: block;
+  }
+  
+  ::ng-deep .fixed-calendar .mat-calendar-header .mat-calendar-next-button,
+  ::ng-deep .fixed-calendar .mat-calendar-header .mat-calendar-previous-button {
+    display: none;
+  }
+  
+  
+ 
+  
+  

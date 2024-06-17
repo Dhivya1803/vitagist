@@ -1,0 +1,47 @@
+<div class="card-container">
+ <div class="whole">
+ <div class="health"> <div class="section-heading">
+    <h1>Health</h1>
+    <div class="toggle-buttons">
+      <mat-button-toggle-group #group="matButtonToggleGroup" class="tbuttons" (change)="onToggleChange(group)">
+        <mat-button-toggle value="active" class="toggle-buttona togMed" [class.active]="isActive">
+          <span class="toggle-text">Medication</span>
+          <span class="toggle-count circle" *ngIf="isActive">8</span>
+        </mat-button-toggle>
+        <mat-button-toggle value="inactive" class="toggle-buttonb" [class.inactive]="!isActive">
+          <span class="toggle-text">Device</span>
+        </mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header-container">
+      <div class="header-text">Today's Medication</div>
+      <div class="notification-icon">
+        <div class="notification-background"></div>
+        <div class="notification-count">9</div>
+      </div>
+      <div class="view-all">View All</div>
+    </div>
+    <div class="inner card">
+      <div class="pillbg"><img  src="assets/img/Pills.png" class="pillbg ig"></div>
+      <mat-card-content>
+        <div class="details">
+        <span class="header">Paracetamol XY12</span>
+        <br>
+        <div class="subtitle">
+          <div class="dosage">250 mg</div>
+          <div class="schedule">
+            <div class="dot"></div>
+            <div class="time">Before Breakfast</div>
+          </div>
+        </div>
+     </div></mat-card-content>
+     <button mat-stroked-button class="bbg">Due - 08:00AM</button>
+    </div>
+  </div>
+</div>
+  <app-expiring-doc></app-expiring-doc>
+  <app-request></app-request>
+</div>
+</div>
