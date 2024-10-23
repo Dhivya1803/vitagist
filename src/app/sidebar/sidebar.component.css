@@ -4,6 +4,9 @@
     background-color: #f0f0f0; /* Light background for modern look */
    
 }
+.lot{
+    margin-bottom:auto;
+}
 
 .fixed-content {
     width: 250px;
@@ -144,3 +147,7 @@ hr.hh {
     align-items: center;
     
 }
+.mat-mdc-nav-list[_ngcontent-ng-c149850828] .mat-mdc-list-item[_ngcontent-ng-c149850828] {
+    margin-bottom: 0px;
+}
+

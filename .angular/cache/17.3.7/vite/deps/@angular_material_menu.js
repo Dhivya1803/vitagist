@@ -4,18 +4,18 @@ import {
   OverlayConfig,
   OverlayModule,
   TemplatePortal
-} from "./chunk-2ON6VTGJ.js";
+} from "./chunk-DLVG3TNR.js";
 import {
   CdkScrollableModule
-} from "./chunk-P3ZRSENV.js";
+} from "./chunk-YWDDKS2T.js";
 import {
   animate,
   state,
   style,
   transition,
   trigger
-} from "./chunk-FUH32YZP.js";
-import "./chunk-U35ELFXH.js";
+} from "./chunk-YQCE7XGU.js";
+import "./chunk-W2P5RGXR.js";
 import {
   DOWN_ARROW,
   Directionality,
@@ -34,11 +34,11 @@ import {
   isFakeMousedownFromScreenReader,
   isFakeTouchstartFromScreenReader,
   normalizePassiveListenerOptions
-} from "./chunk-IHA6K32P.js";
+} from "./chunk-E2VFLN3W.js";
 import {
   CommonModule,
   DOCUMENT
-} from "./chunk-E3ZUSTD7.js";
+} from "./chunk-AL5RHJ47.js";
 import {
   ApplicationRef,
   ChangeDetectionStrategy,
@@ -111,9 +111,9 @@ import {
   ɵɵrestoreView,
   ɵɵtemplate,
   ɵɵviewQuery
-} from "./chunk-DSVFRH57.js";
+} from "./chunk-UOPNPI46.js";
 
-// ../../node_modules/@angular/material/fesm2022/menu.mjs
+// node_modules/@angular/material/fesm2022/menu.mjs
 var _c0 = ["mat-menu-item", ""];
 var _c1 = [[["mat-icon"], ["", "matMenuItemIcon", ""]], "*"];
 var _c2 = ["mat-icon, [matMenuItemIcon]", "*"];

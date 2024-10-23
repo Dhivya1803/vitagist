@@ -6,16 +6,16 @@ import {
   NoopAnimationDriver,
   WebAnimationsDriver,
   WebAnimationsStyleNormalizer
-} from "./chunk-A2ZGJQOF.js";
+} from "./chunk-2VJGDNTW.js";
 import {
   BrowserModule,
   DomRendererFactory2
-} from "./chunk-AJS3KL2T.js";
-import "./chunk-FUH32YZP.js";
-import "./chunk-KB54HDJG.js";
+} from "./chunk-EDQSTGWA.js";
+import "./chunk-YQCE7XGU.js";
+import "./chunk-PLI7CYD3.js";
 import {
   DOCUMENT
-} from "./chunk-E3ZUSTD7.js";
+} from "./chunk-AL5RHJ47.js";
 import {
   ANIMATION_MODULE_TYPE,
   ChangeDetectionScheduler,
@@ -31,9 +31,9 @@ import {
   ɵɵdefineInjector,
   ɵɵdefineNgModule,
   ɵɵinject
-} from "./chunk-DSVFRH57.js";
+} from "./chunk-UOPNPI46.js";
 
-// ../../node_modules/@angular/platform-browser/fesm2022/animations.mjs
+// node_modules/@angular/platform-browser/fesm2022/animations.mjs
 var _InjectableAnimationEngine = class _InjectableAnimationEngine extends AnimationEngine {
   // The `ApplicationRef` is injected here explicitly to force the dependency ordering.
   // Since the `ApplicationRef` should be created earlier before the `AnimationEngine`, they

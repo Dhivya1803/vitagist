@@ -1,7 +1,7 @@
 *{
   --mat-datepicker-calendar-date-selected-state-background-color: #FF9029;
 }
-.calendar {
+.container{
     position: fixed;
     top: 90px;
     right: 20px;
